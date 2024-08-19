@@ -6,7 +6,7 @@
 
 <section class="mt-8 text-xl px-4">
 	<div class="mx-auto">
-		<table border="1" cellspacing="0" cellpadding="5" style="width: 100%; border-collapse: collapse;">
+		<table class="table" border="1" cellspacing="0" cellpadding="5" style="width: 100%; border-collapse: collapse;">
 			<thead>
 				<tr>
 					<th style="text-align: center;">ID</th>
@@ -28,5 +28,4 @@
 		</table>
 	</div>
 </section>
-
 <%@ include file="../common/foot.jspf"%>
