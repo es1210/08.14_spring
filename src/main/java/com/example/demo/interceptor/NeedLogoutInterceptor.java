@@ -14,7 +14,7 @@ public class NeedLogoutInterceptor implements HandlerInterceptor {
 
 	@Autowired
 	private Rq rq;
-	
+
 	@Override
 	public boolean preHandle(HttpServletRequest req, HttpServletResponse resp, Object handler) throws Exception {
 		Rq rq = (Rq) req.getAttribute("rq");
@@ -23,7 +23,6 @@ public class NeedLogoutInterceptor implements HandlerInterceptor {
 			System.err.println("==================로그인 상태입니다====================");
 
 			rq.printHistoryBack("로그인 상태입니다");
-
 
 			return false;
 

@@ -3,6 +3,7 @@
 <c:set var="pageTitle" value="MODIFY"></c:set>
 <%@ include file="../common/head.jspf"%>
 <hr />
+
 <section class="mt-8 text-xl px-4">
 	<div class="mx-auto">
 		<form action="../article/doModify" method="POST">
@@ -28,13 +29,11 @@
 					<tr>
 						<th style="text-align: center;">Title</th>
 						<td style="text-align: center;"><input name="title" value="${article.title}" type="text" autocomplete="off"
-
 							placeholder="새 제목을 입력해" class="input input-bordered input-primary w-full max-w-xs input-sm " /></td>
 					</tr>
 					<tr>
 						<th style="text-align: center;">Body</th>
 						<td style="text-align: center;"><input name="body" value="${article.body}" type="text" autocomplete="off"
-							
 							placeholder="새 내용을 입력해" class="input input-bordered input-primary w-full max-w-xs input-sm " /></td>
 					</tr>
 					<tr>
@@ -59,4 +58,5 @@
 		</div>
 	</div>
 </section>
+
 <%@ include file="../common/foot.jspf"%>

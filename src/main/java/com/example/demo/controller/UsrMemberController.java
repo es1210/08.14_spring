@@ -15,7 +15,7 @@ import jakarta.servlet.http.HttpServletRequest;
 
 @Controller
 public class UsrMemberController {
-	
+
 	@Autowired
 	private Rq rq;
 
@@ -26,7 +26,6 @@ public class UsrMemberController {
 	@ResponseBody
 	public String doLogout(HttpServletRequest req) {
 
-
 		rq.logout();
 
 		return Ut.jsReplace("S-1", Ut.f("로그아웃 성공"), "/");
@@ -34,6 +33,7 @@ public class UsrMemberController {
 
 	@RequestMapping("/usr/member/login")
 	public String showLogin(HttpServletRequest req) {
+
 		return "/usr/member/login";
 	}
 
@@ -73,7 +73,6 @@ public class UsrMemberController {
 
 	@RequestMapping("/usr/member/doJoin")
 	@ResponseBody
-
 	public String doJoin(HttpServletRequest req, String loginId, String loginPw, String name, String nickname,
 			String cellphoneNum, String email) {
 
@@ -95,6 +94,7 @@ public class UsrMemberController {
 		if (Ut.isEmptyOrNull(email)) {
 			return Ut.jsHistoryBack("F-6", "email 입력 x");
 		}
+
 		ResultData joinRd = memberService.join(loginId, loginPw, name, nickname, cellphoneNum, email);
 
 		if (joinRd.isFail()) {

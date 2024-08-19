@@ -32,6 +32,7 @@
 					<th style="text-align: center;">Body</th>
 					<td style="text-align: center;">${article.body}</td>
 				</tr>
+
 			</tbody>
 		</table>
 		<div class="btns">
@@ -46,4 +47,5 @@
 		</div>
 	</div>
 </section>
+
 <%@ include file="../common/foot.jspf"%>
