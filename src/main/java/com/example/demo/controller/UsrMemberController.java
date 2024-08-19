@@ -12,10 +12,12 @@ import com.example.demo.vo.ResultData;
 import com.example.demo.vo.Rq;
 
 import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class UsrMemberController {
+	
+	@Autowired
+	private Rq rq;
 
 	@Autowired
 	private MemberService memberService;
@@ -24,7 +26,6 @@ public class UsrMemberController {
 	@ResponseBody
 	public String doLogout(HttpServletRequest req) {
 
-		Rq rq = (Rq) req.getAttribute("rq");
 
 		rq.logout();
 
@@ -32,7 +33,7 @@ public class UsrMemberController {
 	}
 
 	@RequestMapping("/usr/member/login")
-	public String showLogin() {
+	public String showLogin(HttpServletRequest req) {
 		return "/usr/member/login";
 	}
 
