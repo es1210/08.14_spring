@@ -104,26 +104,22 @@ public class UsrArticleController {
 			@RequestParam(defaultValue = "1") int page) throws IOException {
 		Rq rq = (Rq) req.getAttribute("rq");
 		Board board = boardService.getBoardById(boardId);
-
 		int articlesCount = articleService.getArticlesCount(boardId);
-
 		// 한페이지에 글 10개
 		// 글 20개 -> 2page
 		// 글 25개 -> 3page
 		int itemsInAPage = 10;
-
 		int pagesCount = (int) Math.ceil(articlesCount / (double) itemsInAPage);
-
 		List<Article> articles = articleService.getForPrintArticles(boardId, itemsInAPage, page);
-
 		if (board == null) {
 			return rq.historyBackOnView("없는 게시판임");
 		}
-
 		model.addAttribute("articles", articles);
 		model.addAttribute("articlesCount", articlesCount);
 		model.addAttribute("pagesCount", pagesCount);
 		model.addAttribute("board", board);
+		model.addAttribute("page", page);
+		model.addAttribute("boardId", boardId);
 
 		return "usr/article/list";
 	}

@@ -10618,3 +10618,108 @@ AND delStatus = 0) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@176
 1. Connection.clearWarnings() returned 
 2024-08-20 11:08:38 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 2024-08-20 11:08:38 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-08-20 11:09:08 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-08-20 11:09:08 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-08-20 11:09:38 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-08-20 11:09:38 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-08-20 11:10:08 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-08-20 11:10:08 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-08-20 11:10:38 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-08-20 11:10:38 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-08-20 11:11:08 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-08-20 11:11:08 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-08-20 11:11:38 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-08-20 11:11:38 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-08-20 11:12:08 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-08-20 11:12:08 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-08-20 11:12:38 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-08-20 11:12:38 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-08-20 11:13:08 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-08-20 11:13:08 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-08-20 11:13:38 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-08-20 11:13:38 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-08-20 11:14:08 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-08-20 11:14:08 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-08-20 11:14:14 [INFO ] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-20 11:14:14 [DEBUG] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Change set: [C:\work.kes\sts-4.24.0.RELEASE-workspace\demo\target\classes [C:\work.kes\sts-4.24.0.RELEASE-workspace\demo\target\classes\com\example\demo\controller\UsrArticleController.class (MODIFY)]]
+2024-08-20 11:14:14 [DEBUG] o.s.boot.devtools.restart.Restarter - Restarting application
+2024-08-20 11:14:14 [DEBUG] o.s.boot.devtools.restart.Restarter - Stopping application
+2024-08-20 11:14:14 [DEBUG] o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-08-20 11:14:14 [DEBUG] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1577e47c, started on Tue Aug 20 11:06:13 KST 2024
+2024-08-20 11:14:14 [DEBUG] o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2024-08-20 11:14:14 [DEBUG] o.s.c.s.DefaultLifecycleProcessor - Bean 'applicationTaskExecutor' completed its stop procedure
+2024-08-20 11:14:14 [DEBUG] o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147482623
+2024-08-20 11:14:14 [DEBUG] o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-08-20 11:14:14 [DEBUG] o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147481599
+2024-08-20 11:14:14 [INFO ] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-08-20 11:14:14 [DEBUG] o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerStartStop' completed its stop procedure
+2024-08-20 11:14:14 [DEBUG] o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase -2147483647
+2024-08-20 11:14:14 [DEBUG] o.s.c.s.DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-08-20 11:14:14 [DEBUG] o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2024-08-20 11:14:14 [DEBUG] o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2024-08-20 11:14:14 [DEBUG] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-08-20 11:14:14 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-20 11:14:14 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-08-20 11:14:14 [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@24e085f0: (connection evicted)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+1. Connection closed. {executed in 3ms} 
+open connections:  2 3 4 5 6 7 8 9 10 (9)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+1. Connection.close() returned 
+2024-08-20 11:14:14 [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@4c2bf1c8: (connection evicted)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+2. Connection closed. {executed in 0ms} 
+open connections:  3 4 5 6 7 8 9 10 (8)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+2. Connection.close() returned 
+2024-08-20 11:14:14 [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@d16fbf3: (connection evicted)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+3. Connection closed. {executed in 0ms} 
+open connections:  4 5 6 7 8 9 10 (7)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+3. Connection.close() returned 
+2024-08-20 11:14:14 [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@3c51970e: (connection evicted)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+4. Connection closed. {executed in 0ms} 
+open connections:  5 6 7 8 9 10 (6)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+4. Connection.close() returned 
+2024-08-20 11:14:14 [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@6d3904bc: (connection evicted)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+5. Connection closed. {executed in 0ms} 
+open connections:  6 7 8 9 10 (5)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+5. Connection.close() returned 
+2024-08-20 11:14:14 [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@4e208568: (connection evicted)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+6. Connection closed. {executed in 0ms} 
+open connections:  7 8 9 10 (4)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+6. Connection.close() returned 
+2024-08-20 11:14:14 [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@69779d34: (connection evicted)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+7. Connection closed. {executed in 0ms} 
+open connections:  8 9 10 (3)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+7. Connection.close() returned 
+2024-08-20 11:14:14 [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@115feafe: (connection evicted)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+8. Connection closed. {executed in 0ms} 
+open connections:  9 10 (2)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+8. Connection.close() returned 
+2024-08-20 11:14:14 [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@7b0223b4: (connection evicted)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+9. Connection closed. {executed in 0ms} 
+open connections:  10 (1)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+9. Connection.close() returned 
+2024-08-20 11:14:14 [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@3fa96c86: (connection evicted)
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+10. Connection closed. {executed in 0ms} 
+open connections:  none
+2024-08-20 11:14:14 [INFO ] log4jdbc.log4j2 -  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:137)
+10. Connection.close() returned 
+2024-08-20 11:14:14 [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-08-20 11:14:14 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-20 11:14:14 [DEBUG] o.s.boot.devtools.restart.Restarter - Starting application com.example.demo.DemoApplication with URLs [file:/C:/work.kes/sts-4.24.0.RELEASE-workspace/demo/target/classes/]
