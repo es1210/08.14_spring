@@ -6,7 +6,7 @@
 
 <section class="mt-24 text-xl px-4">
 	<div class="mx-auto">
-		<div>${articlesCount } 개</div>
+		<div>${articlesCount }개</div>
 		<table class="table" border="1" cellspacing="0" cellpadding="5" style="width: 100%; border-collapse: collapse;">
 			<thead>
 				<tr>
@@ -25,7 +25,6 @@
 						<td style="text-align: center;">${article.extra__writer}</td>
 					</tr>
 				</c:forEach>
-
 				<c:if test="${empty articles}">
 					<tr>
 						<td colspan="4" style="text-align: center;">게시글이 없습니다</td>
@@ -33,6 +32,14 @@
 				</c:if>
 			</tbody>
 		</table>
+	</div>
+	<div class="pagination flex justify-center mt-3">
+		<div class="btn-group">
+
+			<c:forEach begin="1" end="${pagesCount }" var="i">
+				<a class="btn btn-sm ${param.page == i ? 'btn-active':''}" href="?page=${i }">${i }</a>
+			</c:forEach>
+		</div>
 	</div>
 </section>
 
